@@ -13,7 +13,7 @@
             header_navbar.classList.remove("sticky");
         }
 
-
+        
 
         // show or hide the back-top-top button
         var backToTo = document.querySelector(".scroll-top");
@@ -60,4 +60,5 @@
 
     "use strict";
 
+    
 }) ();

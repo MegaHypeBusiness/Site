@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "megahype",
+  "private_key_id": "ecddc1d8b75a973e1367c4d67d6ebe4c59e9d52d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCfTJEmLUFOU0ge\nkkaxuiDZXsxEEoJDkGJ34HTUs1p1umxwDrA7gAnBPcO1G8WZdesr3T6t2pA/Bxe4\neDeui9p6vzayKgAYDVjLU+tKoZzIbZOIzJX/q6iu7ZbEcUgVvulOHs916lrnCxAE\nQ9BHXnSMd036Ik7vRgUGqygNz1fWxtDMbnvLNVL7M4mPKMpOY3FykHRsSMVLfWwj\neCSfurPLuXJbOx89KXYFFKkUbwp6pt6itwfbKN192ago3wEUB/IEmL3SwwPoxlEb\neRHCEKzlpDiKbDLXREpneoSd4W+T+tniPNUnTRurBFAPKhCeB3nBgys8KMWyqrI1\nS3VrQTndAgMBAAECggEABM2sv3TJjYCSYfrxhHDDMSVxeF4B1+K12BKIbf991fif\nRh5omaq0i0NUWuoxolJ9cGRVUa26VW7efBKtRHygGRJvUPOrmWNm+YlCxOHXAJjZ\nRDHoa1Ne8e4Px/BN3FCrkqOi3YCJvtdvuLPeHGt7N98YbAH2f7Lh+j+qpLFLX0UG\n888NzSWtZFhnF5jeVyJSmGmd1wsqIStjzNZzhzNTIy6fFtO/P1ynGFo9xrCesPxU\nByUG9P9H/Ls3gUe8F74FtNeyx+XzqpcHyFm8TCzVLBgJAKarTzza21muDxPmvEGN\nOQZPm77xZXectDdohRRSVLTAM3GrSfo6HHal8J+JgQKBgQDO0etukUBeW3q+jf7K\n9n466I+hU3Sx6MlsVr4RbwgXrq1Tdwl3msK+MPZBu1xEjfjhecLQ66EioUH/gyHA\n41UhF+/wzcIQDsrT5ygAM8nv3ImmiWkKsQjt0i/edb1xnOtRVFMKiYpEcOCCyBCm\nV+qgKHKrN1YAhGZY1c1+MEOzwQKBgQDFLdT+0ixqszkiv7TVTlpP/ExQ3PqHHHdg\nbnODOdP3e+0aXS/7kImBkhggMbScOChtdND3LOcvICUGb/2g++T/1jer7iF1q6Uf\nGzRVeEe60jybMvNmmfrAEVi3X9P1TvZL9g/htfqn2OqK/sGTUbo2zRDQe8LkfV96\nH3a+0nkdHQKBgBfDUtOvaL/urtm6Iu5bCAHouqgEmMHgR1RlWw1RvpJKBawzXykY\n5QtJQOIojt9pmJD/lny+thLuiFC9VmF9PUjCIVV/rq59pJxYUOZFDQy8QCycWS9b\nS/VXUxyyVoP5TahYkfoB95sJhSJBrngOXezs+M/nWcBRdhj659N55C2BAoGBAK0B\nH6dNhUdBZVpF1kZp7vfLKLKykOZHZb6oapWzAXZdt5WwOc+B7ARRyPVGZ2/CHkab\nflXBgj5o99OEI4dCPJT0wfgKgjUam1CFsA9l75nNqPuLYuCdLdOj5LFQVUshMx1H\nEnw6DWmD+5ZlHDdEOBypJJ2oWUHddw5R2QBo73dJAoGBAILrj8ZIvS6ORKWYFqJ+\nFJeRBp1zKZn/3RrAtUa7rU2JSHoZDVqU4mIoNqV2kzGQxUY558Qzr2vG86TGj9C6\nZ81ZJKpzE8nqwCtohZKnjgtrm6LGJuNavVv54bTSUNWBqlRHLxPchrZb0Q3IGhkq\n0nmWLPvMgtpw1igMym2w8Ua/\n-----END PRIVATE KEY-----\n",
+  "client_email": "megahype@megahype.iam.gserviceaccount.com",
+  "client_id": "107533200188409241325",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/megahype%40megahype.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

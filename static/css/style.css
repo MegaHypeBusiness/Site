@@ -4,8 +4,8 @@
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
-  --primary: #155bd5;
-  --primary-dark: #1c3ab6;
+  --primary: black;
+  --primary-dark: black;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
@@ -25,10 +25,10 @@
   --error: #e6185e;
   --error-dark: #bf1257;
   --error-light: #fce4eb;
-  --black: #1d1d1d;
+  --black: white;
   --dark-1: #2d2d2d;
   --dark-2: #4d4d4d;
-  --dark-3: #6d6d6d;
+  --dark-3: white;
   --gray-1: #8d8d8d;
   --gray-2: #adadad;
   --gray-3: #cdcdcd;
@@ -168,7 +168,7 @@ p {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--dark-3);
+  color: white;
   margin: 0px;
 }
 
@@ -204,10 +204,10 @@ p {
   text-transform: uppercase;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid transparent;
+  border: 1px solid white;
 }
 .btn:hover {
-  color: inherit;
+  color: gold;
 }
 .btn:focus {
   box-shadow: none;
@@ -263,7 +263,7 @@ p {
 }
 .active.primary-btn, .primary-btn:hover, .primary-btn:focus {
   background: var(--primary-dark);
-  color: var(--white);
+  color: gold;
   box-shadow: var(--shadow-4);
 }
 .deactive.primary-btn {
@@ -274,11 +274,11 @@ p {
 
 .primary-btn-outline {
   border-color: var(--primary);
-  color: var(--primary);
+  color: black;
 }
 .active.primary-btn-outline, .primary-btn-outline:hover, .primary-btn-outline:focus {
   background: var(--primary-dark);
-  color: var(--white);
+  color: gold;
 }
 .deactive.primary-btn-outline {
   color: var(--dark-3);
@@ -292,7 +292,7 @@ p {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: var(--primary);
+  background: white !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,8 +302,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 14px;
-  color: #fff !important;
+  font-size: 18px;
+  color: black !important;
   border-radius: 0;
   position: fixed;
   bottom: 30px;
@@ -312,15 +312,15 @@ p {
   cursor: pointer;
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s;
-  border-radius: 5px;
+  border-radius: 5px
+  
+
 }
 
 .scroll-top:hover {
-  -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
-  box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: var(--dark-1);
+  color: red !important;
 }
 
 /*===========================
@@ -399,7 +399,7 @@ p {
 
 /*===== NAVBAR NINE =====*/
 .navbar-area.navbar-nine {
-  background: var(--primary);
+  background: black;
   padding: 10px 0;
   position: absolute;
   left: 0;
@@ -487,7 +487,7 @@ p {
   display: flex;
   align-items: center;
   padding: 11px 16px;
-  color: var(--white);
+  color: white;
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
@@ -498,10 +498,10 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   margin: 14px 0;
-  opacity: 0.7;
 }
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item a:hover {
   opacity: 1;
+  color: gold;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-nav .nav-item a {
@@ -911,7 +911,7 @@ p {
 .header-eight {
   position: relative;
   padding:160px 0 100px 0;
-  background: var(--primary);
+  background: black;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
@@ -940,7 +940,7 @@ p {
 }
 .header-eight .header-content h1 {
   font-weight: 700;
-  color: var(--white);
+  color: white;
   text-shadow: 0px 3px 8px #00000017;
   text-transform: capitalize;
 }
@@ -961,8 +961,7 @@ p {
 }
 .header-eight .header-content p {
   margin-top: 30px;
-  color: var(--white);
-  opacity: 0.7;
+  color: white;
 }
 .header-eight .button {
   margin-top: 40px;
@@ -975,8 +974,8 @@ p {
 }
 .header-eight .primary-btn:hover {
   background-color: transparent;
-  color: var(--white);
-  border-color: var(--white);
+  color: gold;
+  border-color: gold;
 }
 .header-eight .video-button {
   display: inline-flex;
@@ -1153,6 +1152,7 @@ p {
 ===========================*/
 .services-eight {
   padding: 100px 0;
+  background-color: black
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-eight {
@@ -1179,8 +1179,8 @@ p {
   box-shadow: var(--shadow-4);
 }
 .services-eight .single-services:hover .service-icon {
-  color: var(--white);
-  border-color: transparent;
+  color: gold;
+  border-color: gold;
   background: var(--primary);
   cursor: pointer;
 }
@@ -1625,6 +1625,7 @@ p {
   position: relative;
   z-index: 3;
   padding-top: 100px;
+  background-color: black;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-section {
@@ -1640,7 +1641,7 @@ p {
   display: flex;
   border: 1px solid var(--gray-4);
   border-radius: 10px;
-  background: var(--white);
+  background: black;
   margin-bottom: 30px;
   padding: 20px 30px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1671,12 +1672,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 28px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: var(--primary);
-  color: var(--white);
+  background: white;
+  color: black;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1705,13 +1706,13 @@ p {
 }
 .contact-section .contact-item-wrapper .contact-item .contact-content h4 {
   font-size: 20px;
-  color: var(--primary);
+  color: white;
   margin-bottom: 10px;
 }
 
 .contact-form-wrapper {
   padding: 50px 40px;
-  background: var(--white);
+  background: black;
   border: 1px solid var(--gray-4);
   margin-left: 0px;
   border-radius: 10px;
@@ -1778,7 +1779,7 @@ p {
 .footer-eleven {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--white);
+  background-color: black;
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -1817,11 +1818,11 @@ p {
   }
 }
 .footer-eleven .f-about p {
-  color: var(--dark-3);
+  color: white;
   margin-top: 20px;
 }
 .footer-eleven .f-about .copyright-text {
-  color: var(--dark-3);
+  color: white;
   margin-top: 40px;
 }
 .footer-eleven .f-about .copyright-text span {
@@ -1836,8 +1837,9 @@ p {
   color: var(--primary);
 }
 .footer-eleven .f-about .copyright-text a:hover {
-  color: var(--primary-dark);
+  color: gold;
 }
+
 .footer-eleven .f-link li {
   display: block;
   margin-bottom: 12px;
@@ -1846,7 +1848,7 @@ p {
   margin: 0;
 }
 .footer-eleven .f-link li a {
-  color: var(--dark-3);
+  color: white;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -1854,7 +1856,7 @@ p {
   transition: all 0.4s ease-out 0s;
 }
 .footer-eleven .f-link li a:hover {
-  color: var(--primary);
+  color: gold;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
   .footer-eleven .newsletter {
@@ -1903,7 +1905,7 @@ p {
   transition: all 0.4s ease;
 }
 .footer-eleven .newsletter-form .sub-btn:hover {
-  color: var(--white);
+  color: gold;
   background-color: var(--primary-dark);
 }
 .megahype {

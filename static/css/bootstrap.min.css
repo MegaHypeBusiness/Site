@@ -6701,6 +6701,7 @@ fieldset:disabled .btn {
 }
 .fw-bold {
   font-weight: 700 !important;
+  color: white;
 }
 .fw-bolder {
   font-weight: bolder !important;
